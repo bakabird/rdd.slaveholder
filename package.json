@@ -27,7 +27,7 @@
         "email": "bakabird.yw@gmail.com"
     },
     "dependencies": {
-        "graceful-fs": "^3.0.0",
+        "graceful-fs": "4.1.11",
         "minimatch": "^3.0.2"
     }
 }

@@ -1,7 +1,7 @@
 var events = require("events");
 var EventEmitter = NodeJS.EventEmitter;
 module.exports = /** @class */ (function () {
-    function jobDown(jobCount, afterJobs) {
+    function slaverholder(jobCount, afterJobs) {
         var _this = this;
         this.jobCount = jobCount;
         this.afterJobs = afterJobs;
@@ -17,13 +17,13 @@ module.exports = /** @class */ (function () {
             }
         });
     }
-    jobDown.prototype.oneDown = function (msg) {
+    slaverholder.prototype.oneDown = function (msg) {
         if (this.log) {
             console.log(msg);
         }
         this.Emitter.emit('down');
     };
-    return jobDown;
+    return slaverholder;
 }());
 
 //# sourceMappingURL=../maps/main.js.map

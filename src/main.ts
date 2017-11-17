@@ -2,7 +2,7 @@ const events = require("events");
 import IjobDown = jobDown.main;
 import EventEmitter = NodeJS.EventEmitter;
 
-module.exports = class jobDown implements IjobDown{
+module.exports = class slaverholder implements IjobDown{
     jobCount :number;
     afterJobs :()=>{};
     log :boolean;
