@@ -1,6 +1,6 @@
 const events = require("events");
 import IjobDown = jobDown.main;
-import EventEmitter = NodeJS.EventEmitter;
+import EventEmitter = NodeJS.Events;
 
 module.exports = class slaverholder implements IjobDown{
     jobCount :number;

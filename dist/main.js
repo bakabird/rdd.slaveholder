@@ -1,5 +1,4 @@
 var events = require("events");
-var EventEmitter = NodeJS.EventEmitter;
 module.exports = /** @class */ (function () {
     function slaverholder(jobCount, afterJobs) {
         var _this = this;
