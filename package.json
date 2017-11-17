@@ -18,13 +18,13 @@
         "typescript": "^2.6.1",
         "watchify": "^3.9.0"
     },
-    "repository" :{ 
-        "type" : "git", 
-        "url" : "https://github.com/bakabird/rdd.slaveholder"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bakabird/rdd.slaveholder"
     },
     "bugs": {
-        "url" : "https://github.com/bakabird/rdd.slaveholder", 
-        "email" : "bakabird.yw@gmail.com"
+        "url": "https://github.com/bakabird/rdd.slaveholder",
+        "email": "bakabird.yw@gmail.com"
     },
     "dependencies": {
         "graceful-fs": "^3.0.0",
