@@ -1,0 +1,25 @@
+{
+    "name": "rdd.slaveholder",
+    "version": "0.0.5",
+    "description": "",
+    "main": "./dist/main.js",
+    "scripts": {
+        "test": "jasmine"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^8.0.49",
+        "chai": "^4.1.2",
+        "gulp": "^3.9.1",
+        "gulp-jasmine": "^2.4.2",
+        "gulp-sourcemaps": "^2.6.1",
+        "gulp-typescript": "^3.1.7",
+        "jasmine": "^2.8.0",
+        "typescript": "^2.6.1",
+        "watchify": "^3.9.0"
+    },
+    "dependencies": {
+        "graceful-fs": "^3.0.0",
+        "minimatch": "^3.0.2"
+    }
+}
