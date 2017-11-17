@@ -2168,6 +2168,13 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+rdd.slaveholder@^0.0.7:
+  version "0.0.7"
+  resolved "http://registry.npm.taobao.org/rdd.slaveholder/download/rdd.slaveholder-0.0.7.tgz#600494de5a1b07fbbbaf467bcb5065a4b3007209"
+  dependencies:
+    graceful-fs "4.1.11"
+    minimatch "^3.0.2"
+
 read-only-stream@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/read-only-stream/download/read-only-stream-2.0.0.tgz#2724fd6a8113d73764ac288d4386270c1dbf17f0"

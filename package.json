@@ -1,6 +1,6 @@
 {
     "name": "rdd.slaveholder",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "",
     "main": "./dist/main.js",
     "scripts": {
@@ -28,6 +28,7 @@
     },
     "dependencies": {
         "graceful-fs": "4.1.11",
-        "minimatch": "^3.0.2"
+        "minimatch": "^3.0.2",
+        "rdd.slaveholder": "^0.0.7"
     }
 }
